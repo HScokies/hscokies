@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          template: terminal
-          filename: metrics.repository.svg
+          template: repository
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, metadata, repositories
           plugin_traffic: yes
